@@ -1,0 +1,35 @@
+{
+  "name": "khalilleo-webagentur/browser-detect",
+  "description": "PHP library for Browser Detection in simple way.",
+  "keywords": [
+    "browser",
+    "browser detection",
+    "Mobil"
+  ],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khalilleo",
+      "email": "info@khalilleo.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {},
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Khalilleo\\BrowserDetect\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": []
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
